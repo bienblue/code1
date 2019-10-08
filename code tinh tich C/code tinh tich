@@ -1,0 +1,24 @@
+#include <stdio.h>
+void nhap (int &x, int &y);
+int tinhS(int x,int y);
+void xuat (int kq);
+void main ()
+{   
+   int a , b ;
+   nhap ( a,b );
+   int c = tinhS ( a,b ) ;
+   xuat (c);
+}
+ void nhap (int &x , int &y ) 
+{
+   scanf ( "%d%d" , &x, &y );
+}
+void xuat  (int kq)
+{ 
+  printf ("%d ,kq )
+}
+ int tinhS (intx,inty)
+{
+   int c=x*y;
+   return c ;
+}   
