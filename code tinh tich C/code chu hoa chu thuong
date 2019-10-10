@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main ()
+{
+    char a;
+    printf ("nhap mot ki tu bat ki : ");
+    scanf ("%c",&a );
+    if (a<66)
+         printf ("ket qua %c" a + 32 );
+    else 
+         printf ("ket qua %c" a - 32);
+         getch ();
+}         
