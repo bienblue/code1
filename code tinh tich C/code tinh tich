@@ -15,9 +15,9 @@ void main ()
 }
 void xuat  (int kq)
 { 
-  printf ("%d ,kq )
+  printf ("%d",kq );
 }
- int tinhS (intx,inty)
+ int tinhS (int x,int y)
 {
    int c=x*y;
    return c ;
