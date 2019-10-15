@@ -1,14 +1,12 @@
 #include<stdio.h>
 
-int main() {
+void main() 
+{
 
           int n, i, j;
+       do {
 
- 
-
-          do {
-
-                   printf("Nhap n: ");
+                   printf("n: ");
 
                    scanf("%d", &n);
 
@@ -16,7 +14,7 @@ int main() {
 
  
 
-          printf("\nCac so chinh phuong:");
+          printf("\n: ");
 
           for(i=1; i<=n; i++) {
 
@@ -29,3 +27,4 @@ int main() {
                    }
 
           }
+}
